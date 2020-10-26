@@ -145,7 +145,6 @@ class LibraryReissuer:
 
     def __del__(self):
 
-        # self.mailer.quit()
         self.browser.close()
 
 
